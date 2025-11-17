@@ -3,6 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="#">
         <title>Field &amp; Feast</title>
     </head>
@@ -52,48 +53,45 @@
             </section>
         </section>
 
-        <section id="gallery"> <!-- need to add/link the images and their corresponding sizes for each viewport-->
+        <section id="gallery">
             <h2>A Gallery of Field &amp; Feast</h2>
             <p>Experience the elegance and artistry behind Field &amp; Feast through our curated collection of images. From lush fields and handcrafted ingredients to beautifully plated farm-to-table creations, each photo tells the story of our commitment to excellence.</p>
                 <section>
-                    <img src="#" alt="tomatoes image">
+                    <img src="images/tomatoes-200w.jpg" srcset="images/tomatoes-300w.jpg 2x, images/tomatoes-600w.jpg 3x" alt="heirloom tomatoes at peak ripeness.">        
                     <p>Heirloom tomatoes at peak ripeness.</p>
                 </section>
             
                 <section>
-                    <img src="#" alt="olive-oil image">
+                    <img src="images/olive-oil-200w.jpg" srcset="images/olive-oil-300w.jpg 2x, images/olive-oil-600w.jpg 3x" alt="drizzling golden olive oil over fresh harvest.">
                     <p>Drizzling golden olive oil over fresh harvest.</p>
                 </section>
                 
                 <section>
-                    <img src="#" alt="table-setting image">
+                    <img src="images/table-setting-200w.jpg" srcset="images/table-setting-300w.jpg 2x, images/table-setting-600w.jpg 3x" alt="Elegant tablescape under the evening sky.">
                     <p>Elegant tablescape under the evening sky.</p>
                 </section>
 
                 <section>
-                    <img src="#" alt="chef-plating image">
+                    <img src="images/chef-plating-200w.jpg" srcset="images/chef-plating-300w.jpg 2x, images/chef-plating-600w.jpg 3x" alt="Artful plating with seasonal ingredients.">
                     <p>Artful plating with seasonal ingredients.</p>
                 </section>
 
                 <section>
-                    <img src="#" alt="basket image">
+                    <img src="images/basket-200w.jpg" srcset="images/basket-300w.jpg 2x, images/basket-600w.jpg 3x" alt="Our monthly basket, curated with care.">
                     <p>Our monthly basket, curated with care.</p>
                 </section>
 
-            <a href="#" class="button">View Our Full Gallery</a>
+            <a href="#" class="button">View Our Full Gallery</a> <!--style the button in CSS -->
         </section>
     </main>
-    <footer> <!--need to add the correct tags for email, phone-->
-        <p>
+    <footer>
+        <address>
             123 Estate Lane, Wine Country, CA<br>
             (555) 123-4567<br>
-            hello@fieldandfeast.com<br>
-        </p>
-
-        <p>
+            <a href="mailto:hello@fieldandfeast.com">hello@fieldandfeast.com</a><br><br>
             <a href="#" alt="Instagram link">Instagram</a>
             <a href="#" alt="Facebook link">Facebook</a>
-        </p>
+        </address>
     </footer>
     </body>
 </html>
