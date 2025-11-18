@@ -62,16 +62,24 @@ root {
 /* COLORS */
 --midnight-blue: #1F2A44;
 --olive-green: #76885B;
---champagne-gold: #E5C185;
---linen: #F8F4EC;
+--champagne-gold: #E5C185; 
+--linen: #F8F4EC; /* darker, background-color for body */
 --dark-charcoal: #2B2B2B;
---soft-white: #FAF9F6;
+--soft-white: #FAF9F6; /* lighter, background-color for img captions */
 
 /* FONTS */
 --font: 'Playfair Display', serif;
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+
+body{
+	max-width: 450px;
+	background-color: var(--linen);
+	font: var(--font);
+	color: var (--dark-charcoal);
+	margin: 0 auto;
+}
 
 /* HEADER STYLES */
 
@@ -85,8 +93,8 @@ root {
 
 /* FOOTER STYLES */
 
-/* MEDIA QUERY (medium) */
+/* MEDIA QUERY (medium - 600px) */
 
-/* MEDIA QUERY (large) */
+/* MEDIA QUERY (large - 900px) */
 
-/* MEDIA QUERY (xl) */
+/* MEDIA QUERY (xl - 1200px) */
