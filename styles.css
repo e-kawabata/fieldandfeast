@@ -63,9 +63,9 @@ root {
 --midnight-blue: #1F2A44; /* background-color for header/footer, color for nav ul li's, h2's for sections */
 --olive-green: #76885B; /* background-color for sections in #offerings */
 --champagne-gold: #E5C185; /* background-color for nav, dashes between sections, color for links in footer */
---linen: #F8F4EC; /* doesn't appear in color picked mockups, use wherever seems good! */
+--linen: #F8F4EC; /* background-color for body */
 --dark-charcoal: #2B2B2B; /* color for body text */
---soft-white: #FAF9F6; /* background-color for body, color for text in sections in #offerings/gallery link/footer text */
+--soft-white: #FAF9F6; /* color for text in sections in #offerings/gallery link/footer text */
 
 /* FONTS */
 --font: 'Playfair Display', serif;
@@ -92,6 +92,10 @@ body{
 /* #gallery SECTION STYLES */
 
 /* FOOTER STYLES */
+
+/* #visit SECTION STYLES */
+
+/* #follow SECTION STYLES */
 
 /* MEDIA QUERY (medium - 600px) */
 
