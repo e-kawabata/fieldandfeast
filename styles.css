@@ -65,7 +65,7 @@ root {
 --champagne-gold: #E5C185; /* background-color for nav, dashes between sections, color for links in footer */
 --linen: #F8F4EC; /* background-color for body */
 --dark-charcoal: #2B2B2B; /* color for body text */
---soft-white: #FAF9F6; /* color for text in sections in #offerings/gallery link/footer text */
+--soft-white: #FAF9F6; /* color for all other text in mockups */
 
 /* FONTS */
 --font: 'Playfair Display', serif;
@@ -81,7 +81,22 @@ body{
 	margin: 0 auto;
 }
 
+h1 {
+	font: var(--font);
+	color: var(--soft-white)
+
+}
+
+h1 p {
+	color: var(--soft-white);
+}
+
 /* HEADER STYLES */
+
+header {
+	background-color: var(--midnight-blue);
+	
+}
 
 /* NAV STYLES */
 
