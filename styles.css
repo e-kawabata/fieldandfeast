@@ -146,7 +146,34 @@ h3 {
 
 /* #welcome SECTION STYLES */
 
+#welcome p {
+	font-size: 0.95rem;
+	margin-bottom: 1rem;
+}
+
 /* #offerings SECTION STYLES */
+
+#offerings > section {
+	background-color: var(--olive-green);
+	color: var(--soft-white);
+	border-radius: 10px;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.18);
+}
+
+#offerings p {
+	font-size: 0.95rem;
+}
+
+#offerings ul {
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+}
+
+#offerings li {
+	margin-bottom: 0.3rem;
+}
 
 /* #gallery SECTION STYLES */
 
