@@ -91,7 +91,6 @@ header {
 }
 
 header img {
-	width: 120px;
 	margin-bottom: 1rem;
 }
 
@@ -124,7 +123,7 @@ nav a {
 	color: var(--midnight-blue);
 	text-decoration: none;
 	font-weight: 800;
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 
 /* MAIN SECTION STYLES */
