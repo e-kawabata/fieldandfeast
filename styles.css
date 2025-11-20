@@ -100,7 +100,7 @@ header h1 {
 	margin-bottom: 0.5rem;
 }
 
-h1 p {
+header p {
 	color: var(--soft-white);
 	font-style: italic;
 	font-size: 1rem;
