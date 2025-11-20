@@ -73,16 +73,16 @@ root {
 
 /* GLOBAL STYLES (mobile first/small - 450px) */
 
-body{
+body {
 	max-width: 450px;
 	background-color: var(--linen);
-	font: var(--font);
+	font-family: var(--font);
 	color: var (--dark-charcoal);
 	margin: 0 auto;
 }
 
 h1 {
-	font: var(--font);
+	font-family: var(--font);
 	color: var(--soft-white)
 
 }
@@ -96,8 +96,13 @@ header {
 	padding: 1em;
 }
 
+header h1 {
+	font-size: 2rem;
+	margin-bottom: 0.25rem;
+}
 h1 p {
 	color: var(--soft-white);
+	font-style: italic;
 }
 
 /* NAV STYLES */
@@ -108,21 +113,13 @@ nav {
 }
 
 nav ul {
+	display: flex;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+	justify-content: space-around;
 }
 
-nav ul li {
-	float: left;
-}
-
-nav ul li a {
-	display: block;
+nav a {
 	color: var(--midnight-blue);
-	text-align: center;
-	padding: 10px 30px;
 	text-decoration: none;
 }
 
