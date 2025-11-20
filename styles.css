@@ -213,7 +213,7 @@ h3 {
 /* "View Gallery" button */
 .button {
 	display: block;
-	width: 100%;
+	width: 90%;
 	margin-top: 1rem;
 	background-color: var(--olive-green);
 	color: var(--soft-white);
