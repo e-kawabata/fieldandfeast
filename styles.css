@@ -81,19 +81,6 @@ body {
 	margin: 0 auto;
 }
 
-/* section divider shared style */
-
-#welcome::after,
-#offerings::after,
-#gallery::after {
-	content: "";
-	display: block;
-	width: 90%;
-	height: 2px;
-	background-color: var(--champagne-gold);
-	margin: 0 auto;
-	border-radius: 2px;
-}
 
 /* HEADER STYLES */
 
@@ -223,23 +210,23 @@ h2 {
 #gallery img {
 	width: 100%;
 	display: block;
-	border-radius: 10px;
-	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 #gallery figcaption {
 	background-color: var(--soft-white);
+	color: var(--dark-charcoal);
 	text-align: center;
 	font-style: italic;
-	margin-top: 0.5rem;
 	font-size: 0.85rem;
-	color: var(--dark-charcoal);
+	margin-top: 0.5rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 /* "View Gallery" button */
 .button {
 	display: block;
-	width: 85%;
+	width: 90%;
 	margin: 0 auto;
 	background-color: var(--olive-green);
 	color: var(--soft-white);
