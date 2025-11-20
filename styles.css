@@ -87,7 +87,12 @@ header {
 	background-color: var(--midnight-blue);
 	text-align: center;
 	color: var(--soft-white);
-	padding: 1em;
+	padding: 2rem 1rem;
+}
+
+header img {
+	width: 120px;
+	margin-bottom: 1rem;
 }
 
 header h1 {
@@ -98,24 +103,27 @@ header h1 {
 h1 p {
 	color: var(--soft-white);
 	font-style: italic;
+	font-size: 1rem;
 }
 
 /* NAV STYLES */
 
 nav {
 	background-color: var(--champagne-gold);
-	text-align: center;
+	padding: 0.8rem 0;
 }
 
 nav ul {
 	display: flex;
-	list-style-type: none;
+	list-style: none;
 	justify-content: space-around;
 }
 
 nav a {
 	color: var(--midnight-blue);
 	text-decoration: none;
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 /* #welcome SECTION STYLES */
