@@ -213,7 +213,7 @@ h2 {
 .button {
 	display: block;
 	width: 90%;
-	margin-top: 1rem;
+	margin: 0 auto;
 	background-color: var(--olive-green);
 	color: var(--soft-white);
 	text-align: center;
