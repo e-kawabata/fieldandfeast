@@ -152,6 +152,7 @@ h2 {
 	font-size: 0.8rem;
 	margin-bottom: 1rem;
 	line-height: 1.6;
+	border-bottom: 3px solid var(--champagne-gold);
 }
 
 /* #offerings SECTION STYLES */
@@ -191,6 +192,11 @@ h2 {
 }
 
 /* #gallery SECTION STYLES */
+
+#gallery section {
+	border-top: 3px solid var(--champagne-gold);
+	border-bottom: 3px solid var(--champagne-gold);
+}
 
 #gallery p {
 	line-height: 1.4;
