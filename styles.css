@@ -139,11 +139,6 @@ h2 {
 	margin-bottom: 1rem;
 }
 
-h3 {
-	color: var(--soft-white);
-	font-size: 1.4rem;
-	margin-bottom: 0.5rem;
-}
 
 /* #welcome SECTION STYLES */
 
@@ -172,6 +167,12 @@ h3 {
 #offerings h2 {
 	font-size: 1.5rem;
 	font-weight: bold;
+}
+
+#offerings h3 {
+	color: var(--soft-white);
+	font-size: 1.4rem;
+	margin-bottom: 0.5rem;
 }
 
 #offerings p {
