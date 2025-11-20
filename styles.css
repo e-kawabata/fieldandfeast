@@ -104,6 +104,7 @@ h1 p {
 	color: var(--soft-white);
 	font-style: italic;
 	font-size: 1rem;
+	margin-top: 1rem;
 }
 
 /* NAV STYLES */
@@ -122,7 +123,7 @@ nav ul {
 nav a {
 	color: var(--midnight-blue);
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: 800;
 	font-size: 1rem;
 }
 
