@@ -190,6 +190,11 @@ h2 {
 
 /* #gallery SECTION STYLES */
 
+#gallery p {
+	line-height: 1.4;
+	margin-bottom: 0.3rem;
+}
+
 #gallery figure {
 	margin-bottom: 1.5rem;
 }
