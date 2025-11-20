@@ -196,8 +196,7 @@ h3 {
 	color: var(--dark-charcoal);
 }
 
-/* FOOTER STYLES */
-
+/* "View Gallery" button */
 .button {
 	display: block;
 	width: 100%;
@@ -212,6 +211,7 @@ h3 {
 	font-size: 1rem;
 }
 
+/* FOOTER STYLES */
 
 /* #visit SECTION STYLES */
 
