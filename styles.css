@@ -198,14 +198,9 @@ h2 {
 
 #offerings ul {
 	margin-left: 1rem;
-	margin-top: 0.5rem;
 	list-style-type: disc;
 	line-height: 1.4;
 	font-size: 0.9rem;
-}
-
-#offerings li {
-	margin-bottom: 0.3rem;
 }
 
 /* #gallery SECTION STYLES */
