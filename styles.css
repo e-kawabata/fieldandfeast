@@ -198,6 +198,21 @@ h3 {
 
 /* FOOTER STYLES */
 
+.button {
+	display: block;
+	width: 100%;
+	margin-top: 1rem;
+	background-color: var(--olive-green);
+	color: var(--soft-white);
+	text-align: center;
+	padding: 0.75rem;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+
 /* #visit SECTION STYLES */
 
 /* #follow SECTION STYLES */
