@@ -178,13 +178,16 @@ h2 {
 }
 
 #offerings p {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
+	line-height: 1.4;
 }
 
 #offerings ul {
 	margin-left: 1rem;
 	margin-top: 0.5rem;
 	list-style-type: disc;
+	line-height: 1.4;
+	font-size: 0.9rem;
 }
 
 #offerings li {
