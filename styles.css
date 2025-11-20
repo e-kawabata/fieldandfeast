@@ -217,7 +217,7 @@ h2 {
 /* "View Gallery" button */
 .button {
 	display: block;
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	background-color: var(--olive-green);
 	color: var(--soft-white);
