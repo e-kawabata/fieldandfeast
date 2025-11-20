@@ -81,6 +81,20 @@ body {
 	margin: 0 auto;
 }
 
+/* section divider shared style */
+
+#welcome::after,
+#offerings::after,
+#gallery::after {
+	content: "";
+	display: block;
+	width: 80%;
+	height: 2px;
+	background-color: var(--champagne-gold);
+	margin: 2rem auto;
+	border-radius: 2px;
+}
+
 /* HEADER STYLES */
 
 header {
@@ -143,9 +157,6 @@ h2 {
 
 /* #welcome SECTION STYLES */
 
-#welcome {
-	border-bottom: 2px solid var(--champagne-gold);
-}
 
 #welcome h2 {
 	font-size: 1.8rem;
@@ -159,10 +170,6 @@ h2 {
 }
 
 /* #offerings SECTION STYLES */
-
-#offerings {
-	border-bottom: 2px solid var(--champagne-gold);
-}
 
 #offerings > section {
 	background-color: var(--olive-green);
@@ -203,9 +210,6 @@ h2 {
 
 /* #gallery SECTION STYLES */
 
-#gallery {
-	border-bottom: 2px solid var(--champagne-gold);
-}
 
 #gallery h2 {
 	font-size: 1.8rem;
