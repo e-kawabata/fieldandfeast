@@ -87,18 +87,44 @@ h1 {
 
 }
 
-h1 p {
-	color: var(--soft-white);
-}
-
 /* HEADER STYLES */
 
 header {
 	background-color: var(--midnight-blue);
-	
+	text-align: center;
+	color: var(--soft-white);
+	padding: 1em;
+}
+
+h1 p {
+	color: var(--soft-white);
 }
 
 /* NAV STYLES */
+
+nav {
+	background-color: var(--champagne-gold);
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: var(--midnight-blue);
+	text-align: center;
+	padding: 10px 30px;
+	text-decoration: none;
+}
 
 /* #welcome SECTION STYLES */
 
