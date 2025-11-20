@@ -88,10 +88,10 @@ body {
 #gallery::after {
 	content: "";
 	display: block;
-	width: 80%;
+	width: 90%;
 	height: 2px;
 	background-color: var(--champagne-gold);
-	margin: 2rem auto;
+	margin: 0 auto;
 	border-radius: 2px;
 }
 
