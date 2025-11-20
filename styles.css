@@ -254,13 +254,11 @@ footer address {
 
 footer a {
 	color: var(--champagne-gold);
+	font-weight: bold;
 	text-decoration: none;
 	font-size: 0.9rem;
 }
 
-#follow a {
-	margin: 0 0.5rem;
-}
 
 /* MEDIA QUERY (medium - 600px) */
 
