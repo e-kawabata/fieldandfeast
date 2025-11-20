@@ -81,12 +81,6 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
-	font-family: var(--font);
-	color: var(--soft-white)
-
-}
-
 /* HEADER STYLES */
 
 header {
@@ -100,6 +94,7 @@ header h1 {
 	font-size: 2rem;
 	margin-bottom: 0.25rem;
 }
+
 h1 p {
 	color: var(--soft-white);
 	font-style: italic;
