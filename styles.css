@@ -143,6 +143,10 @@ h2 {
 
 /* #welcome SECTION STYLES */
 
+#welcome {
+	border-bottom: 2px solid var(--champagne-gold);
+}
+
 #welcome h2 {
 	font-size: 1.8rem;
 	margin-top: 2rem;
@@ -152,10 +156,13 @@ h2 {
 	font-size: 0.9rem;
 	margin-bottom: 1rem;
 	line-height: 1.6;
-	border-bottom: 3px solid var(--champagne-gold);
 }
 
 /* #offerings SECTION STYLES */
+
+#offerings {
+	border-bottom: 2px solid var(--champagne-gold);
+}
 
 #offerings > section {
 	background-color: var(--olive-green);
@@ -196,9 +203,8 @@ h2 {
 
 /* #gallery SECTION STYLES */
 
-#gallery section {
-	border-top: 3px solid var(--champagne-gold);
-	border-bottom: 3px solid var(--champagne-gold);
+#gallery {
+	border-bottom: 2px solid var(--champagne-gold);
 }
 
 #gallery h2 {
