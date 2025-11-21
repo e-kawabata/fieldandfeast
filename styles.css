@@ -346,6 +346,9 @@ footer a {
 		overflow: hidden;
 	}
 
+	#gallery figcaption {
+		clear: both;
+	}
 	/* "View Gallery" button */
 	.button {
 		width: 100%;
