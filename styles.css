@@ -315,7 +315,7 @@ footer a {
 
 	#offerings > section {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: auto auto;
 		gap: 1rem;
 		background-color: var(--olive-green);
 		color: var(--soft-white);
