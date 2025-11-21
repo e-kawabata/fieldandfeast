@@ -253,7 +253,7 @@ h2 {
 	display: block;
 	width: 100%;
 	max-width: 450px;
-	margin: 1rem auto 0.5rem auto;
+	margin: 1 rem auto 0 auto;
 	border-bottom: 2px solid var(--champagne-gold);
 }
 
@@ -289,6 +289,71 @@ footer a {
 
 
 /* MEDIA QUERY (medium - 600px) */
+
+@media screen and (min-width: 600px) {
+	body {
+		max-width: 600px;
+	}
+
+	header img {
+		width: 180px;
+	}
+
+	main section {
+		padding: 2rem 1.25rem;
+	}
+
+	/* changing the #offerings cards to 2 per row */
+	#offerings > section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+		margin-bottom: 2rem;
+		padding: 0;
+	}
+
+	/* styles for the cards in #offerings */
+	#offerings > section > section,
+	#offerings section:not(:first:child) {
+		background-color: var(--olive-green);
+		color: var(--soft-white);
+		padding: 1rem;
+		border-radius: 10px;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.18);
+	}
+
+	/* monthly basket card now full width */
+	#offerings section:last-child {
+		grid-column: 1 / -1;
+	}
+
+	/* #gallery changed to 2 images per row */
+	#gallery figure {
+		display: inline-block;
+		width: calc(50% - 0.75rem);
+		margin: 0.75rem;
+		vertical-align: top;
+	}
+
+	#gallery {
+		text-align: center;
+	}
+
+	/* "View Gallery" button */
+	.button {
+		width: 100%;
+		font-size: 1rem;
+		padding: 0.85rem;
+	}
+
+	/* Gold dividers */
+	#welcome::after,
+	#offerings::after,
+	#gallery::after {
+		max-width: 600px;
+		width: 100%;
+	}
+}
 
 /* MEDIA QUERY (large - 900px) */
 
