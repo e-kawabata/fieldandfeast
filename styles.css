@@ -325,8 +325,6 @@ footer a {
 		padding: 1rem;
 	}
 
-
-
 	/* monthly basket card now full width */
 	#offerings section:last-child {
 		grid-column: 1 / -1;
@@ -345,8 +343,9 @@ footer a {
 	}
 	/* "View Gallery" button */
 	.button {
-		width: 100%;
+		width: 95%;
 		font-size: 1rem;
+		margin: 0 auto;
 		padding: 0.85rem;
 	}
 
