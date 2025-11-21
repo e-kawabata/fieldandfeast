@@ -77,7 +77,7 @@ body {
 	max-width: 450px;
 	background-color: var(--linen);
 	font-family: var(--font);
-	color: var (--dark-charcoal);
+	color: var(--dark-charcoal);
 	margin: 0 auto;
 }
 
