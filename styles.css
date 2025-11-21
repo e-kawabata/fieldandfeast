@@ -334,13 +334,15 @@ footer a {
 	#gallery figure {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		width: 50%;
 		gap: 1rem;
 		overflow: hidden;
 	}
 
 	#gallery figcaption {
-		clear: both;
+		display: block;
 	}
+
 	/* "View Gallery" button */
 	.button {
 		width: 95%;
