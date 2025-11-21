@@ -308,6 +308,8 @@ footer a {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
+		background: none;
+		box-shadow: none;
 		margin-bottom: 2rem;
 		padding: 0;
 	}
