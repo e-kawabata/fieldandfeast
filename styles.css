@@ -313,7 +313,8 @@ footer a {
 	}
 
 	/* changing the #offerings cards to 2 per row */
-	#offerings > section {
+	
+	#offerings > section not(:last-child) {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
@@ -333,8 +334,8 @@ footer a {
 	/* #gallery changed to 2 images per row */
 	#gallery figure {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		width: 50%;
+		grid-template-columns: 50% 50%;
+		width: 100%;
 		gap: 1rem;
 		overflow: hidden;
 	}
