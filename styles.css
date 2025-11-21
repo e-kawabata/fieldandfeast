@@ -251,9 +251,9 @@ h2 {
 #gallery::after {
 	content: "";
 	display: block;
-	width: 95%;
+	width: 100%;
 	max-width: 450px;
-	margin: 2rem auto;
+	margin: 1rem auto;
 	border-bottom: 2px solid var(--champagne-gold);
 }
 
