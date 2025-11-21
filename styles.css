@@ -207,7 +207,11 @@ h2 {
 }
 
 #gallery figure {
+	background-color: var(--soft-white);
 	margin-bottom: 1.5rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+	overflow: hidden;
 }
 
 #gallery img {
@@ -216,14 +220,12 @@ h2 {
 }
 
 #gallery figcaption {
+	padding: 0.75rem 0.5rem;
 	background-color: var(--soft-white);
 	color: var(--dark-charcoal);
 	text-align: center;
 	font-style: italic;
 	font-size: 0.85rem;
-	margin-top: 0.5rem;
-	border-radius: 10px;
-	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 /* "View Gallery" button */
