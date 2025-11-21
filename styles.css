@@ -343,11 +343,12 @@ footer a {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
+		overflow: hidden;
 	}
 
 	/* "View Gallery" button */
 	.button {
-		width: 95%;
+		width: 100%;
 		font-size: 1rem;
 		padding: 0.85rem;
 	}
