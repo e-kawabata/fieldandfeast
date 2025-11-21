@@ -331,10 +331,9 @@ footer a {
 
 	/* #gallery changed to 2 images per row */
 	#gallery figure {
-		display: inline-block;
-		width: calc(50% - 0.75rem);
-		margin: 0.75rem;
-		vertical-align: top;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
 	}
 
 	#gallery {
@@ -359,4 +358,12 @@ footer a {
 
 /* MEDIA QUERY (large - 900px) */
 
+@media screen and (min-width: 900px) {
+
+}
+
 /* MEDIA QUERY (xl - 1200px) */
+
+@media screen and (min-width: 1200px) {
+
+}
