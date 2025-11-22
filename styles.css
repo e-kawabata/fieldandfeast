@@ -323,18 +323,10 @@ footer a {
 		gap: 1rem;
 		grid-auto-flow: row;
 	}
-
-	#offerings > section#provisions {
-		grid-area: provisions;
-	}
-
-	#offerings > section#experiences {
-		grid-area: experiences;
-	}
-
-	#offerings > section#basket {
-		grid-area: basket;
-	}
+		
+	#provisions  { grid-area: provisions; }
+	#experiences { grid-area: experiences; }
+	#basket { grid-area: basket; }
 
 	#offerings > section {
 		display: flex;
