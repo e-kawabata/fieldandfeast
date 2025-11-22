@@ -311,20 +311,28 @@ footer a {
 		padding: 2rem 1.25rem;
 	}
 
-	/* changing the #offerings cards to 2 per row */
+	/* changing the #offerings cards to 2 per row and changing width of third card*/
 
 	#offerings {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto auto;
+		grid-template-areas: 
+			"provisions experiences"
+			"basket basket";
 		gap: 0.5rem;
 	}
 
+	#provisions {
+		grid-area: provisions;
+	}
 
-	/* monthly basket card now full width */
+	#experiences {
+		grid-area: experiences;
+	}
 
-	#offerings > section:nth-of-type(3) {
-		grid-column: 1 / -1;
+	#basket {
+		grid-area: basket;
 	}
 
 	#offerings > section h3 + p {
