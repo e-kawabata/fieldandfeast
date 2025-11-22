@@ -313,16 +313,21 @@ footer a {
 
 	/* changing the #offerings cards to 2 per row */
 
-	#offerings section {
+	#offerings {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 10px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto auto;
+		gap: 2rem;
 	}
 
 	/* monthly basket card now full width */
 
-	#offerings section:last-child {
+	#offerings > section:last-child {
 		grid-column: 1 / -1;
+	}
+
+	#offerings > section h3 + p {
+		margin-top: 0.5rem;
 	}
 
 	/* #gallery changed to 2 images per row */
