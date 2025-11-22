@@ -313,30 +313,6 @@ footer a {
 
 	/* changing the #offerings cards to 2 per row and changing width of third card*/
 
-	#offerings {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: auto auto;
-		grid-template-areas: 
-			"provisions experiences"
-			"basket basket";
-		gap: 1rem;
-		grid-auto-flow: row;
-	}
-		
-	#provisions  { grid-area: provisions; }
-	#experiences { grid-area: experiences; }
-	#basket { grid-area: basket; }
-
-	#offerings > section {
-		display: flex;
-		flex-direction: column;
-	}
-
-	#offerings > section h3 + p {
-		margin-top: 0.5rem;
-	}
-
 	/* #gallery changed to 2 images per row */
 
 	/* "View Gallery" button */
