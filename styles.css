@@ -323,15 +323,15 @@ footer a {
 		gap: 0.5rem;
 	}
 
-	#provisions {
+	#offerings > section#provisions {
 		grid-area: provisions;
 	}
 
-	#experiences {
+	#offerings > section#experiences {
 		grid-area: experiences;
 	}
 
-	#basket {
+	#offerings > section#basket {
 		grid-area: basket;
 	}
 
