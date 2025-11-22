@@ -321,7 +321,7 @@ footer a {
 
 	/* monthly basket card now full width */
 
-	#offerings section(:nth-child) {
+	#offerings section:last-child {
 		grid-column: 1 / -1;
 	}
 
