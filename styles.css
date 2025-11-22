@@ -317,15 +317,13 @@ footer a {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto auto;
-		grid-template-areas: 
-		"provisions experiences"
-		"basket";
 		gap: 0.5rem;
 	}
 
+
 	/* monthly basket card now full width */
 
-	#offerings > section:last-child {
+	#offerings > section:nth-of-type(3) {
 		grid-column: 1 / -1;
 	}
 
