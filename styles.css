@@ -313,7 +313,7 @@ footer a {
 
 	/* changing the #offerings cards to 2 per row and changing width of third card*/
 
-	#offerings > section {
+	#offerings {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto auto;
@@ -321,6 +321,7 @@ footer a {
 			"provisions experiences"
 			"basket basket";
 		gap: 1rem;
+		grid-auto-flow: row;
 	}
 
 	#offerings > section#provisions {
@@ -333,6 +334,11 @@ footer a {
 
 	#offerings > section#basket {
 		grid-area: basket;
+	}
+
+	#offerings > section {
+		display: flex;
+		flex-direction: column;
 	}
 
 	#offerings > section h3 + p {
