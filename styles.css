@@ -313,7 +313,7 @@ footer a {
 
 	/* changing the #offerings cards to 2 per row and changing width of third card*/
 
-	#offerings {
+	#offerings > section {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto auto;
