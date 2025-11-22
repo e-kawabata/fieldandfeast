@@ -311,12 +311,13 @@ footer a {
 		padding: 2rem 1.25rem;
 	}
 
-	/* changing the #offerings cards to 2 per row and changing width of third card*/
+	/* changing the #offerings cards to 2 per column and changing width of third card*/
 
 	#offerings {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1rem;
+		padding-bottom: 2rem;
 	}
 
 	#offerings h2 {
@@ -363,6 +364,8 @@ footer a {
 		max-width: 600px;
 		width: 100%;
 	}
+
+
 }
 
 /* MEDIA QUERY (large - 900px) */
