@@ -313,35 +313,9 @@ footer a {
 
 	/* changing the #offerings cards to 2 per row */
 
-	#offerings > section {
-		display: grid;
-		grid-template-columns: auto auto;
-		gap: 1rem;
-		background-color: var(--olive-green);
-		color: var(--soft-white);
-		border-radius: 10px;
-		box-shadow: 0 3px 6px rgba(0,0,0,0.18);
-		margin-bottom: 2rem;
-		padding: 1rem;
-	}
-
 	/* monthly basket card now full width */
-	#offerings section:last-child {
-		grid-column: 1 / -1;
-	}
 
 	/* #gallery changed to 2 images per row */
-	#gallery figure {
-		display: grid;
-		grid-template-columns: auto auto;
-		width: 100%;
-		gap: 1rem;
-		overflow: hidden;
-	}
-
-	#gallery figcaption {
-		display: block;
-	}
 
 	/* "View Gallery" button */
 	.button {
@@ -351,7 +325,7 @@ footer a {
 		padding: 0.85rem;
 	}
 
-	/* Gold dividers */
+	/* Gold dividers changes */
 	#welcome::after,
 	#offerings::after,
 	#gallery::after {
@@ -363,11 +337,66 @@ footer a {
 /* MEDIA QUERY (large - 900px) */
 
 @media screen and (min-width: 900px) {
+	body {
+		max-width: 900px;
+	}
+
+	header img {
+		width: 200px;
+	}
+
+	header h1 {
+		font-size: 4rem;
+	}
+
+	header p {
+		font-size: 1.5rem;
+		margin-top: 1.25rem;
+	}
+
+	main section {
+		padding: 2rem 1.25rem;
+	}
+
+	/* Gold dividers changes */
+	#welcome::after,
+	#offerings::after,
+	#gallery::after {
+		max-width: 900px;
+		width: 100%;
+	}
 
 }
 
 /* MEDIA QUERY (xl - 1200px) */
 
 @media screen and (min-width: 1200px) {
+	body {
+		max-width: 1200px;
+	}
 
+	header img {
+		width: 220px;
+	}
+
+	header h1 {
+		font-size: 4rem;
+	}
+
+	header p {
+		font-size: 1.5rem;
+		margin-top: 1.25rem;
+	}
+
+	main section {
+		padding: 2rem 1.25rem;
+	}
+
+	/* Gold dividers changes */
+	#welcome::after,
+	#offerings::after,
+	#gallery::after {
+		max-width: 1200px;
+		width: 100%;
+	}
 }
