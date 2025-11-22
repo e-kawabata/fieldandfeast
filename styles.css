@@ -354,7 +354,8 @@ footer a {
 		margin: 0;
 	}
 
-	#gallery img {
+	#gallery img,
+	#gallery figcaption {
 		width: 100%;
 		height: auto;
 		display: block;
