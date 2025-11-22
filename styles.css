@@ -313,7 +313,40 @@ footer a {
 
 	/* changing the #offerings cards to 2 per row and changing width of third card*/
 
+	#offerings {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
+
+	#offerings h2 {
+		grid-column: 1 / -1;
+		margin-bottom: 1rem;
+	}
+
+	#offerings > section {
+		margin-bottom: 0;
+	}
+
+	#provisions {
+		grid-column: 1;
+	}
+
+	#experiences {
+		grid-column: 2;
+	}
+
+	#basket {
+		grid-column: 1 / -1;
+	}
+
 	/* #gallery changed to 2 images per row */
+
+	figure {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0.5rem;
+	}
 
 	/* "View Gallery" button */
 	.button {
