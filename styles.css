@@ -324,7 +324,8 @@ footer a {
 		line-height: 1.5;
 	}
 
-	/* #offerings SECTION STYLES + changing the #offerings cards to 2 per column and changing width of third card*/
+	/* #offerings SECTION STYLES */
+	/* changing the #offerings cards to 2 per column and changing width of third card */
 
 	#offerings {
 		display: grid;
@@ -442,15 +443,37 @@ footer a {
 	/* #welcome SECTION STYLES */
 
 	#welcome h2 {
-		font-size: 1.8rem;
+		font-size: 2.2rem;
 		margin-top: 2rem;
 		margin-bottom: 0.25rem;
 	}
 
 	#welcome p {
-		font-size: 0.9rem;
+		font-size: 1.2rem;
 		margin-bottom: 1rem;
 		line-height: 1.5;
+	}
+
+	/* #offerings SECTION STYLES */
+
+	#offerings h3 {
+		color: var(--soft-white);
+		font-weight: bold;
+		font-size: 1.8rem;
+		margin-bottom: 0.5rem;
+		line-height: 1.6;
+	}
+
+	#offerings p {
+		font-size: 1.1rem;
+		line-height: 1.4;
+	}
+
+	#offerings ul {
+		margin-left: 1rem;
+		list-style-type: disc;
+		line-height: 1.4;
+		font-size: 1.1rem;
 	}
 	
 	/* Gallery changes to three columns */
@@ -494,11 +517,11 @@ footer a {
 	}
 
 	header h1 {
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 
 	header p {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		margin-top: 1.5rem;
 	}
 
@@ -506,7 +529,41 @@ footer a {
 		padding: 4rem 6rem;
 	}
 
-	
+	/* #welcome SECTION STYLES */
+
+	#welcome h2 {
+		font-size: 2.4rem;
+		margin-top: 2rem;
+		margin-bottom: 0.5rem;
+	}
+
+	#welcome p {
+		font-size: 1.4rem;
+		margin-bottom: 1rem;
+		line-height: 1.5;
+	}
+
+	/* #offerings SECTION STYLES */
+
+	#offerings h3 {
+		color: var(--soft-white);
+		font-weight: bold;
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+		line-height: 1.6;
+	}
+
+	#offerings p {
+		font-size: 1.3rem;
+		line-height: 1.4;
+	}
+
+	#offerings ul {
+		margin-left: 1rem;
+		list-style-type: disc;
+		line-height: 1.4;
+		font-size: 1.3rem;
+	}
 
 	/* Gallery changes to five columns */
 
@@ -520,7 +577,7 @@ footer a {
 
 	/* "View Gallery" button */
 	.button {
-		width: 95%;
+		width: 98%;
 		font-size: 1rem;
 		margin: 0 auto;
 		padding: 0.85rem;
