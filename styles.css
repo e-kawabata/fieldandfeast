@@ -384,43 +384,36 @@ footer a {
 	}
 
 	#gallery p {
-		font-size: 1.1rem;
+		font-size: 1rem;
 		line-height: 1.4;
 		margin-bottom: 1rem;
 	}
 
 	/* #gallery changed to 2 columns */
 
-	#gallery {
-		margin-top: 1rem;
-	}
-
-	#gallery > figure {
-		display: grid;
-	}
-
-	#gallery {
+	.gallery-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
+		margin-top: 1rem;
 	}
 
-	#gallery > figure {
-		grid-column: span 1;
+	.gallery-grid figure {
+		display: block;
+		margin: 0;
 	}
 
-	#gallery img {
+	.gallery-grid img {
 		width: 100%;
 		height: auto;
 		display: block;
 		border-radius: 10px;
 	}
 
-	#gallery figcaption {
+	.gallery-grid figcaption {
 		width: 100%;
 		display: block;
 		text-align: center;
-		font-size: 0.6rem;
 		font-style: italic;
 		margin-top: 0.25rem;
 	}
