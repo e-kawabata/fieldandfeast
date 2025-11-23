@@ -306,6 +306,20 @@ footer a {
 		margin-top: 1.25rem;
 	}
 
+	/* NAV STYLES */
+
+	nav {
+		background-color: var(--champagne-gold);
+		padding: 0.9rem 0;
+	}
+
+	nav a {
+		color: var(--midnight-blue);
+		text-decoration: none;
+		font-weight: 800;
+		font-size: 1.3rem;
+	}
+
 	main section {
 		padding: 2rem 1.25rem;
 	}
@@ -453,6 +467,20 @@ footer a {
 		margin-top: 1.25rem;
 	}
 
+	/* NAV STYLES */
+
+	nav {
+		background-color: var(--champagne-gold);
+		padding: 1rem 0;
+	}
+
+	nav a {
+		color: var(--midnight-blue);
+		text-decoration: none;
+		font-weight: 800;
+		font-size: 1.4rem;
+	}
+
 	main section {
 		padding: 2rem 1.6rem;
 	}
@@ -573,6 +601,20 @@ footer a {
 	header p {
 		font-size: 1.3rem;
 		margin-top: 1.5rem;
+	}
+
+	/* NAV STYLES */
+
+	nav {
+		background-color: var(--champagne-gold);
+		padding: 1.1rem 0;
+	}
+
+	nav a {
+		color: var(--midnight-blue);
+		text-decoration: none;
+		font-weight: 800;
+		font-size: 1.5rem;
 	}
 
 	main section {
