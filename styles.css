@@ -412,9 +412,10 @@ footer a {
 	.gallery-grid figcaption {
 		width: 100%;
 		display: block;
+		font-size: 0.8rem;
 		text-align: center;
 		font-style: italic;
-		margin-top: 0.25rem;
+		margin: 0.25rem;
 	}
 
 	/* "View Gallery" button */
