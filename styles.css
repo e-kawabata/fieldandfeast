@@ -343,6 +343,19 @@ footer a {
 
 	/* #gallery changed to 2 images per row */
 
+	#gallery > figure {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
+
+	#gallery > figcaption {
+		display: block;
+		text-align: center;
+	}
+	
+	}
+
 	/* "View Gallery" button */
 	.button {
 		width: 95%;
