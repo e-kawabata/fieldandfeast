@@ -391,12 +391,31 @@ footer a {
 
 	/* #gallery changed to 2 columns */
 
-	#gallery figure {
-	
+	#gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+		margin-top: 1rem;
 	}
 
-	#gallery > figcaption {
+	#gallery figure {
+		display: block;
+		margin: 0;
+	}
+
+	#gallery img {
+		width: 100%;
+		height: auto;
+		display: block;
+		border-radius: 10px;
+	}
+
+	#gallery figcaption {
+		width: 100%;
+		display: block;
 		text-align: center;
+		font-style: italic;
+		margin-top: 0.25rem;
 	}
 
 	/* "View Gallery" button */
