@@ -341,9 +341,9 @@ footer a {
 		grid-column: 1 / -1;
 	}
 
-	/* #gallery changed to 2 images per row */
+	/* #gallery changed to 2 columns */
 
-	#gallery > figure + figcaption{
+	#gallery > figure {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1rem;
@@ -374,10 +374,110 @@ footer a {
 
 @media screen and (min-width: 900px) {
 
+	body {
+		max-width: 900px;
+	}
+
+	header img {
+		width: 200px;
+	}
+
+	header h1 {
+		font-size: 4rem;
+	}
+
+	header p {
+		font-size: 1.3rem;
+		margin-top: 1.25rem;
+	}
+
+	main section {
+		padding: 2rem 1.5rem;
+	}
+	
+	/* Gallery changes to three columns */
+
+	#gallery > figure {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 1rem;
+	}
+
+	#gallery > figcaption {
+		text-align: center;
+	}
+
+	/* "View Gallery" button */
+	.button {
+		width: 95%;
+		font-size: 1rem;
+		margin: 0 auto;
+		padding: 0.85rem;
+	}
+
+	/* Gold dividers changes */
+	#welcome::after,
+	#offerings::after,
+	#gallery::after {
+		max-width: 900px;
+		width: 100%;
+	}
+
 }
+
 
 /* MEDIA QUERY (xl - 1200px) */
 
 @media screen and (min-width: 1200px) {
-	
+
+	body {
+		max-width: 1200px;
+	}
+
+	header img {
+		width: 220px;
+	}
+
+	header h1 {
+		font-size: 5rem;
+	}
+
+	header p {
+		font-size: 1.5rem;
+		margin-top: 1.5rem;
+	}
+
+	main section {
+		padding: 2rem 2rem;
+	}
+
+	/* Gallery changes to five columns */
+
+	#gallery > figure {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-gap: 1rem;
+	}
+
+	#gallery > figcaption {
+		text-align: center;
+	}
+
+	/* "View Gallery" button */
+	.button {
+		width: 95%;
+		font-size: 1rem;
+		margin: 0 auto;
+		padding: 0.85rem;
+	}
+
+	/* Gold dividers changes */
+	#welcome::after,
+	#offerings::after,
+	#gallery::after {
+		max-width: 1200px;
+		width: 100%;
+	}
+
+
 }
