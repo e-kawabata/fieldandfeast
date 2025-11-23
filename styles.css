@@ -495,13 +495,32 @@ footer a {
 	
 	/* Gallery changes to three columns */
 
-	#gallery figure {
-
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 1rem;
+		margin-top: 1rem;
 	}
 
-	#gallery > figcaption {
-		font-size: 0.6rem;
+	.gallery-grid figure {
+		display: block;
+		margin: 0;
+		border-radius: 10px;
+	}
+
+	.gallery-grid img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.gallery-grid figcaption {
+		width: 100%;
+		display: block;
+		font-size: 0.8rem;
 		text-align: center;
+		font-style: italic;
+		margin: 0 auto;
 	}
 
 	/* "View Gallery" button */
@@ -585,8 +604,32 @@ footer a {
 
 	/* Gallery changes to five columns */
 
-	#gallery figure {
-	
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		gap: 1rem;
+		margin-top: 1rem;
+	}
+
+	.gallery-grid figure {
+		display: block;
+		margin: 0;
+		border-radius: 10px;
+	}
+
+	.gallery-grid img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.gallery-grid figcaption {
+		width: 100%;
+		display: block;
+		font-size: 0.8rem;
+		text-align: center;
+		font-style: italic;
+		margin: 0 auto;
 	}
 
 	#gallery > figcaption {
