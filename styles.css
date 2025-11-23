@@ -389,7 +389,7 @@ footer a {
 		margin-bottom: 1rem;
 	}
 
-	/* #gallery changed to 2 columns */
+	/* #gallery changed to 2 columns using div wrapper */
 
 	.gallery-grid {
 		display: grid;
@@ -407,7 +407,6 @@ footer a {
 		width: 100%;
 		height: auto;
 		display: block;
-		border-radius: 10px;
 	}
 
 	.gallery-grid figcaption {
