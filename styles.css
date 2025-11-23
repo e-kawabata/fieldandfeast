@@ -286,7 +286,6 @@ footer a {
 	font-size: 0.9rem;
 }
 
-
 /* MEDIA QUERY (medium - 600px) */
 
 @media screen and (min-width: 600px) {
@@ -343,10 +342,9 @@ footer a {
 
 	/* #gallery changed to 2 columns */
 
-	#gallery > figure {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 1rem;
+	#gallery figure {
+		display: block;
+		margin: 0;
 	}
 
 	#gallery > figcaption {
@@ -397,10 +395,9 @@ footer a {
 	
 	/* Gallery changes to three columns */
 
-	#gallery > figure {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 1rem;
+	#gallery figure {
+		display: block;
+		margin: 0;
 	}
 
 	#gallery > figcaption {
@@ -425,7 +422,6 @@ footer a {
 
 }
 
-
 /* MEDIA QUERY (xl - 1200px) */
 
 @media screen and (min-width: 1200px) {
@@ -448,15 +444,14 @@ footer a {
 	}
 
 	main section {
-		padding: 2rem 2rem;
+		padding: 4rem 6rem;
 	}
 
 	/* Gallery changes to five columns */
 
-	#gallery > figure {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-		grid-gap: 1rem;
+	#gallery figure {
+		display: block;
+		margin: 0;
 	}
 
 	#gallery > figcaption {
