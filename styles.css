@@ -397,6 +397,7 @@ footer a {
 	.gallery-grid figure {
 		display: block;
 		margin: 0;
+		border-radius: 10px;
 	}
 
 	.gallery-grid img {
@@ -411,7 +412,7 @@ footer a {
 		font-size: 0.8rem;
 		text-align: center;
 		font-style: italic;
-		margin: 0.25rem;
+		margin: 0 auto;
 	}
 
 	/* "View Gallery" button */
