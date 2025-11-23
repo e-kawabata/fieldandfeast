@@ -334,10 +334,6 @@ footer a {
 		padding-bottom: 2rem;
 	}
 
-	#offerings > section {
-		margin-bottom: 0;
-	}
-
 	#offerings h2 {
 		font-size: 2rem;
 		grid-column: 1 / -1;
