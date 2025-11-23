@@ -397,6 +397,10 @@ footer a {
 
 	#gallery > figure {
 		display: grid;
+	}
+
+	#gallery {
+		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
 	}
