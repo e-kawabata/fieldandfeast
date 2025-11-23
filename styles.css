@@ -343,13 +343,13 @@ footer a {
 
 	/* #gallery changed to 2 images per row */
 
-	#gallery > figure {
+	#gallery figure {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1rem;
 	}
 
-	#gallery > figcaption {
+	#gallery figcaption {
 		display: block;
 		text-align: center;
 	}
