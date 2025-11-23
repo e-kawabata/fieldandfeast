@@ -339,6 +339,7 @@ footer a {
 	}
 
 	#offerings h2 {
+		font-size: 2rem;
 		grid-column: 1 / -1;
 		margin-bottom: 1rem;
 	}
@@ -360,7 +361,7 @@ footer a {
 		margin-left: 1rem;
 		list-style-type: disc;
 		line-height: 1.4;
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 
 	#provisions {
@@ -378,8 +379,8 @@ footer a {
 	/* #gallery SECTION STYLES */
 
 	#gallery h2 {
-		font-size: 1.8rem;
-		margin-bottom: 0.25rem;
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
 	}
 
 	#gallery p {
@@ -432,12 +433,12 @@ footer a {
 	}
 
 	header p {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		margin-top: 1.25rem;
 	}
 
 	main section {
-		padding: 2rem 1.5rem;
+		padding: 2rem 1.6rem;
 	}
 
 	/* #welcome SECTION STYLES */
