@@ -509,6 +509,7 @@ footer a {
 	}
 
 	#gallery > figcaption {
+		font-size: 0.6rem;
 		text-align: center;
 	}
 
