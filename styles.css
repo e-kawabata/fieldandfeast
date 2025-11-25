@@ -256,6 +256,10 @@ h2 {
 	border-bottom: 2px solid var(--champagne-gold);
 }
 
+#offerings::after {
+	grid-column: 1 / -1;
+}
+
 /* FOOTER STYLES */
 
 footer {
