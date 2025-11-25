@@ -321,7 +321,7 @@ footer a {
 	}
 
 	main section {
-		padding: 2rem 1.25rem;
+		padding: 1rem;
 	}
 
 	/* #welcome SECTION STYLES */
@@ -427,6 +427,7 @@ footer a {
 		text-align: center;
 		font-style: italic;
 		margin: 0 auto;
+		padding: 0.8rem 0 0.8rem 0;
 	}
 
 	/* "View Gallery" button */
@@ -482,7 +483,7 @@ footer a {
 	}
 
 	main section {
-		padding: 2rem 1.6rem;
+		padding: 1.5rem;
 	}
 
 	/* #welcome SECTION STYLES */
@@ -618,7 +619,7 @@ footer a {
 	}
 
 	main section {
-		padding: 4rem 6rem;
+		padding: 2.5rem;
 	}
 
 	/* #welcome SECTION STYLES */
@@ -631,7 +632,7 @@ footer a {
 
 	#welcome p {
 		font-size: 1.2rem;
-		margin-bottom: 1.25rem;
+		margin-bottom: 1.5rem;
 		line-height: 1.4;
 	}
 
