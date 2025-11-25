@@ -290,6 +290,10 @@ footer a {
 	font-size: 0.9rem;
 }
 
+#follow {
+	padding-top: 2.5rem;
+}
+
 /* MEDIA QUERY (medium - 600px) */
 
 @media screen and (min-width: 600px) {
